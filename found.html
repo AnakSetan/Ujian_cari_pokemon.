@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Pokemon</title>
+  <style>
+    body{
+        background-image: "https://wallpapercave.com/wp/wp2623286.jpg"}
+        </style>
+
+</head>
+
+<body id="page-top">
+  
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1>{{data['name'].upper()}}</mark></h1>
+      <img src="{{data['urlpic']}}" height="400" width="400">
+      <h3>ID: {{data['idpoke']}};Weight: {{data['weight']}};Height: {{data['height']}}</h3>
+      <h2><a href="http://127.0.0.1:5000" class="btn-floating btn-large waves-effect waves-light red" >Back to first page</a></h2>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
